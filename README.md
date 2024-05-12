@@ -30,7 +30,7 @@ You have to place a copy of Chocolate DOOM inside a directory named `DOOM`. It h
 To start the program, invoke `start.exe` with path to mspaint binary as the argument. E.g. `start.exe C:\Program Files (x86)\Paint Classic\mspaint.exe"`.
 
 **Important**: This project has been written to be compatible with mspaint.exe version **10.0.14393.321**, nowadays distributed by 3rd party vendors as Classic Paint.
-It can be made to support other versions by tweaking the offsets in **paintext.c**, but the new Windows 11 edition of Paint varies wildly and hence it is **NOT supported**.
+It can be made to support other versions by tweaking the offsets in **paintext.cc**, but the new Windows 11 edition of Paint differs wildly and hence it is **NOT supported**.
 
 
 
