@@ -1,7 +1,8 @@
-# canvas-of-doom
+# Canvas of DOOM (WIP)
 
 
-## Canvas of DOOM (WIP)
+
+## Why?
 
 I've always thought it would be fun to run a game inside Windows' Paint. And because nobody else did it, I had to.
 
