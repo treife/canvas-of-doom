@@ -88,7 +88,7 @@ LRESULT CALLBACK canvasWindowProc(HWND hwnd, UINT uMsg,
 			// Make sure the game receives coordinates in terms of its window
 			uint32_t crafted_lparam = (uint16_t)game_x;
 			crafted_lparam |= (uint16_t(game_y) << 16);
-			send_event(WM_MOUSEMOVE, wParam, crafted_lparam);
+			//send_event(WM_MOUSEMOVE, wParam, crafted_lparam);
 
 			return TRUE;
 		}
@@ -118,7 +118,7 @@ LRESULT CALLBACK canvasWindowProc(HWND hwnd, UINT uMsg,
 			// Make sure the game receives coordinates in terms of its window
 			uint32_t crafted_lparam = (uint16_t)game_x;
 			crafted_lparam |= (uint16_t(game_y) << 16);
-			send_event(uMsg, wParam, crafted_lparam);
+			//send_event(uMsg, wParam, crafted_lparam);
 		}
 	}
 	return CallWindowProc(original_canvas_wndproc, hwnd, uMsg, wParam, lParam);
